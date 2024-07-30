@@ -1,46 +1,125 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio von [Dein Name]</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Illustration meets Code</h1>
-        <p>Finn Rodenberg</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#illustrationen">Illustrationen</a></li>
-            <li><a href="#coding">Coding-Projekte</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="illustrationen">
-            <h2>Illustrationen</h2>
-            <div class="gallery">
-                <!-- Beispiel für ein Bild 
-                <figure>
-                    <img src="path/to/your/image1.jpg" alt="Beschreibung des Bildes">
-                    <figcaption>Beschreibung des Bildes</figcaption>
-                </figure>
-                Weitere Bilder hinzufügen -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Finn Rodenberg Illustration, Interactive Dev</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="js/jQuery-v3-3-1.js"></script>
+        <link href="fancybox-master/fancy-my.css" rel="stylesheet" type="text/css">
+        <script src="slicknav/jquery.slicknav.min.js"></script>
+        <link rel="stylesheet" href="slicknav/slicknav.css" />
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="logo"><a href="#"><img src="menu/" alt="Finn Rodenberg Logo"/></a></div>
+                <nav>
+                    <ul id="navigation" class="liste-ohne">
+                        <li class="menu-typo"><a href="illustration.html"><img src="menu/illustration.jpg" alt="Illustration"/></a></li>
+                        <li class="menu-typo"><a href="animation.html"><img src="menu/animation.jpg" alt="Animation"/></a></li>
+                        <li class="menu-typo"><a href="3d.html"><img src="menu/figuren.jpg" alt="Figuren"/></a></li>
+                        <li class="menu-typo"><a href="skizzenbuch.html"><img src="menu/skizzenbuch.jpg" alt="Skizzenbuch"/></a></li>
+                        <li class="menu-typo"><a href="kontakt.html"><img src="menu/kontakt.jpg" alt="Kontakt"/></a></li>
+                    </ul>
+                    <ul class="socialmedia liste-ohne flex">
+                        <li class="menu-typo"><a href="https://www.instagram.com/fi_roden/" target="_blank"><img src="menu/insta.png" alt="Follow on Instagram"/></a></li>
+                        <li class="menu-typo"><a href="https://www.linkedin.com/in/finn-rodenberg/" target="_blank"><img src="menu/linkedin.png" alt="Connect on LinkedIn"/></a></li>
+                    </ul>
+                    <ul class="socialmedia liste-ohne flex abstand-oben3">
+                        <li class="menu-typo"><a href="https://github.com/firode" target="_blank"><img src="menu/github.png" alt="follow on GitHub"/></a></li>
+                        <li class="menu-typo"><a href="https://fi-roden.itch.io/" target="_blank"><img src="menu/itch.png" alt="follow on Itch"/></a></li>
+                    </ul>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <ul class="liste-ohne teaser teaser-flex">
+                    <li>
+                        <a href="illustration.html#freie"><img src="images/indextitles/freie1-title.jpg" alt="Illustration freie Arbeiten"/></a>
+                        <p><a href="illustration.html#freie">Landschaften</a></p>
+                    </li>
+                    <li>
+                        <a href="illustration.html#horses"><img src="images/indextitles/" alt="Magical Horse Art"/></a>
+                        <p><a href="illustration.html#horses">Magical Horse Illustration</a></p>
+                    </li>
+                    <li>
+                        <a href="illustration.html#gartenhaus"><img src="images/indextitles/" alt="Illustration Gartenhaus für Bremer Kleingärten Edgar Free Card"/></a>
+                        <p><a href="illustration.html#gartenhaus">Print und Plakat</a></p>
+                    </li>
+                    <li>
+                        <a href="illustration.html#cantaloop"><img src="images/indextitles/cantaloop-title.jpg" alt=""/></a>
+                        <p><a href="illustration.html#cantaloop">Buchillustration</a></p>
+                    </li>
+                    <li>
+                        <a href="animation.html#rats"><img src="images/indextitles/rat-title.jpg" alt="Indie Point & Click adventure game The Rat Revolution"/></a>
+                        <p><a href="animation.html">Indie Point-and-Click Game</a></p>
+                    </li>
+                    <li>
+                        <a href="illustration.html#maulwurfcompany"><img src="images/indextitles/" alt="Brettspielillustration Konzept Maulwurf Company"/></a>
+                        <p><a href="#">Brettspielillustration</a></p>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <section id="coding">
-            <h2>Coding-Projekte</h2>
-            <article>
-                <h3>Projektname 1</h3>
-                <p>Kurze Beschreibung des Projekts. <a href="link_to_project">Mehr sehen</a></p>
-            </article>
-            <!-- Weitere Projekte hinzufügen -->
-        </section>
-    </main>
-    <footer>
-        <p>Kontakt: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <!-- LinkedIn, Insta... -->
-    </footer>
-</body>
+            <div class="content">
+                <h1 class="abstand-oben2">Finn Rodenberg, Kreativist</h1>
+                <br>
+                <div class="flex">
+                    <p>Moin! <br>Ich bin Finn, Illustrator und Entwickler aus Norddeutschland. In meinem Portfolio finden sich Malereien und diverse Prototypen zu interaktiven illustrativen Anwendungen. Besonders reizt mich die interaktive Ebene der Kunst, von digitalen Games bis physischen Installationen, bei denen Zeichnungen durch Technologie zum Leben erwachen.
+                        <br><br>Ich habe einen Bachelor der Informatik an der Universität Hamburg und schließe derzeit einen zweiten Bachelor der Illustration an der HAW Hamburg ab.
+                        <br><br>
+                        <i>
+                        Hiya!<br>I'm Finn, an illustrator and developer from northern Germany. My portfolio includes paintings and various prototypes for interactive illustrative applications. I'm particularly fascinated by the interactive dimension of art, ranging from digital games to physical installations, where drawings come to life through technology.
+                        <br><br> I hold a Bachelor's degree in Computer Science from the University of Hamburg and am currently completing a second Bachelor's degree in Illustration at HAW Hamburg.
+                        </i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul  class="typo-klein liste-ohne">
+                <li>Finn Rodenberg<br>
+                    Hamburg
+                </li>
+                <li>
+                    <a href="mailto:finn.rodenberg@web.de">finn.rodenberg@web.de</a>
+                </li>
+                <li>
+                    <a href="impressum.html">Impressum</a><br>
+                    <a href="datenschutz.html">Datenschutzerklärung</a>
+                </li>
+            </ul>
+        </footer>
+        <!--<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>-->
+        <script src="fancybox-master/src/js/core.js"></script>
+        <script src="fancybox-master/src/js/fullscreen.js"></script>
+        <script src="fancybox-master/src/js/guestures.js"></script>
+        <script src="fancybox-master/src/js/hash.js"></script>
+        <script src="fancybox-master/src/js/media.js"></script>
+        <script src="fancybox-master/src/js/share.js"></script>
+        <script src="fancybox-master/src/js/slideshow.js"></script>
+        <script src="fancybox-master/src/js/thumbs.js"></script>
+        <!--  <script src="fancybox-master/src/js/wheel.js"></script>-->
+        <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+        <script>
+            $(function(){
+            	$('#navigation').slicknav();
+            
+            });
+            
+            var $root = $('html, body');
+            $('a.softscroll').click(function() {
+                $root.animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top-10
+                }, 500);
+                return false;
+            });
+            
+        </script>  
+    </body>
 </html>
